@@ -15,11 +15,12 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
 		"test:e2e": "playwright test",
-		 "deploy": "npm run build && firebase deploy --only hosting:internetpavilion2025"
+		"deploy": "npm run build && firebase deploy --only hosting:internetpavilion2025"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
+		"@magidoc/plugin-svelte-marked": "^6.2.0",
 		"@playwright/test": "^1.49.1",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.16.0",
@@ -28,11 +29,13 @@
 		"@tailwindcss/vite": "^4.0.0",
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/svelte": "^5.2.4",
+		"@types/marked": "^5.0.2",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
 		"globals": "^16.0.0",
 		"jsdom": "^26.0.0",
+		"marked": "^15.0.7",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.11",
@@ -45,6 +48,8 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
+		"@babylonjs/core": "^7.53.3",
+		"@babylonjs/viewer": "^7.53.3",
 		"firebase": "^11.4.0"
 	}
 }

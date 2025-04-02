@@ -1,9 +1,36 @@
+<script>
+</script>
 
-
-
-<div class="min-h-screen bg-black flex items-center justify-center">
-    <div class="text-center">
-        <h1 class="text-white text-4xl font-bold mb-4">Internet Pavilion 2025</h1>
-     
+<main>
+    <div class="links-container">
+        <a href="/000/salawaki">PBB House (Salawaki)</a>
+        <a href="/000/franco">Zebra (Franco Mamaril)</a>
+        <a href="/000/jellyfish">Jellyfish Invasion (Jellyfish Kisses)</a>
+        <a href="/000/notes">Exhibit Notes</a>
+       
     </div>
-</div>
+</main>
+
+<style>
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        gap: 1rem;
+        background-color: #f0f0f0;
+        font-family: 'VT323', monospace;
+    }
+
+    a {
+        color: #006C35;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: 'VT323', monospace;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>

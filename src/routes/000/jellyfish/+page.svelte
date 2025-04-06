@@ -7,30 +7,15 @@
   
 </script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <svelte:head>
-    <title>Internet Pavilion 2025</title>
+    <title>Jellyfish Invasion</title>
 
 </svelte:head>
 
 
-<main class="">
 
 
+<main>
 <div class="min-h-screen bg-black flex items-center justify-center">
  
 

@@ -23,6 +23,7 @@
     </div>
 </main>
 
+
 <style>
     .container {
         display: flex;
@@ -35,11 +36,38 @@
     .content {
         max-width: 600px;
         font-family: 'VT323', monospace;
+        overflow: auto; 
     }
 
     :global(.content *) {
         font-family: 'VT323', monospace;
         color: #006C35;
+    }
+
+    /* Add spacing between paragraphs */
+    :global(.content p) {
+        margin-bottom: 1.5rem; /* Increase space between paragraphs */
+        line-height: 1.6;      /* Improve line spacing within paragraphs */
+    }
+    
+    /* Ensure lists have proper spacing */
+    :global(.content ul), 
+    :global(.content ol) {
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Add spacing between list items */
+    :global(.content li) {
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Add spacing after headings */
+    :global(.content h1),
+    :global(.content h2),
+    :global(.content h3),
+    :global(.content h4) {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
 
     :global(.content a) {

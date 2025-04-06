@@ -2,16 +2,12 @@
     import "@babylonjs/viewer";
 </script>
 
-
-
 <svelte:head>
-    <title>Internet Pavilion 2025</title>
-
+    <title>PBB House</title>
 </svelte:head>
 
 
-<main class="">
-
+<main>
 
 <div class="min-h-screen bg-black flex items-center justify-center">
  
@@ -20,13 +16,10 @@
     source="https://kolown.net/assets/ip25/salawaki.glb"
     environment="auto"
 
-
+    camera-orbit="-2.178 1.344 5.675"
+    camera-target="0.049 1.173 0.525"
     camera-auto-orbit
-    camera-auto-orbit-speed="0.260"
-    camera-auto-orbit-delay="2"
-
-        templates.tool-bar="null/false/hide"
-    
+    animation-auto-play
 ></babylon-viewer>
 
 </div>
@@ -58,4 +51,3 @@
 
 
 </style>
-    

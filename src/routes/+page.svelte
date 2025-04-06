@@ -4,7 +4,7 @@
 <main>
     <div class="links-container">
         <a href="/000/salawaki">PBB House (Salawaki)</a>
-        <a href="/000/franco">Zebra (Franco Mamaril)</a>
+        <a href="/000/franco">Playground Artifact (Franco Mamaril)</a>
         <a href="/000/jellyfish">Jellyfish Invasion (Jellyfish Kisses)</a>
         <a href="/000/notes">Exhibit Notes</a>
        

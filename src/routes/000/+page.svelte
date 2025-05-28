@@ -2,16 +2,12 @@
 </script>
 
 <main>
-
-   
     <div class="links-container">
-
-         <div class ="px-5">
-        <img src="/icon.svg" alt="logo" style="filter: brightness(0) invert(1); width: 100px;" />
-    </div>
-        <a href="/iterationsonline">iterations online</a>
-        <a href="/000">000</a>
-
+        <a href="/000/salawaki">PBB House (Salawaki)</a>
+        <a href="/000/franco">Playground Artifact (Franco Mamaril)</a>
+        <a href="/000/jellyfish">Jellyfish Invasion (Jellyfish Kisses)</a>
+        <a href="/000/notes">Exhibit Notes</a>
+       
     </div>
 </main>
 
@@ -23,12 +19,12 @@
         justify-content: center;
         min-height: 100vh;
         gap: 1rem;
-        background-color: #006C35;
+        background-color: #f0f0f0;
         font-family: 'VT323', monospace;
     }
 
     a {
-        color: #f0f0f0;
+        color: #006C35;
         text-decoration: none;
         font-size: 1.5rem;
         font-family: 'VT323', monospace;
